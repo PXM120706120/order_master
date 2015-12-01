@@ -1,0 +1,10 @@
+<div>
+    <header><button class="back">Back</button>选餐厅</header>
+</div>
+
+<div class="button-content2">
+    <button class="button3" ng-repeat="food in foods" ng-click="for_set_meal(food.name)">
+        {{food.name}}
+        <p>￥{{food.price}}</p>
+    </button>
+</div>

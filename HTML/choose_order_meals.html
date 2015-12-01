@@ -1,0 +1,27 @@
+<div>
+    <header><button class="back">Back</button>订餐</header>
+</div>
+
+<div class="content">
+    <div class="button-content1">
+        <h4>人：</h4>
+        <input type="text" id="txt1" ng-model="person" ng-disabled='true'/>
+        <button class="button1" ng-click="choose_people()">选人</button>
+    </div>
+
+    <div class="button-content1">
+        <h4>餐厅：</h4>
+        <input type="text" id="txt2" ng-model="restaurant" ng-disabled='true' />
+        <button class="button1" ng-click="choose_restaurant()">选餐厅</button>
+    </div>
+
+    <div class="button-content1">
+        <h4>套餐：</h4>
+        <input type="text" id="txt3" ng-model="set_meal" ng-disabled='true' />
+        <button class="button" ng-click="choose_set_meal()">选套餐</button>
+    </div>
+
+    <div class="button-content1">
+        <button class="button1" ng-click="for_order()" >确认</button>
+    </div>
+</div>
